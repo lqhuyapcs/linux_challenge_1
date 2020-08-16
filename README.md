@@ -16,7 +16,7 @@ Ví dụ đầu ra:
 [Thong tin he thong]
 Ten may: myname
 Ten ban phan phoi: Ubuntu 14.04.4
-......
+
 3.2. Xử lý file (2d)
 Viết shell script checketc.sh đặt lịch chạy định kỳ 30 phút / lần để thực hiện:
 1. Kiểm tra thư mục /etc có file nào được tạo mới (so với lần chạy trước) không? Nếu có,
@@ -41,6 +41,7 @@ xxxxxxxxxx
 
 === Danh sach file bi xoa ===
 /etc/shadow
+
 3.3. Monitor SSH (2d)
 Viết shell script sshmonitor.sh đặt lịch chạy định kỳ 5 phút / lần để thực hiện:
 1. List danh sách các phiên đăng nhập mới qua ssh

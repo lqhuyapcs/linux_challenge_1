@@ -48,10 +48,7 @@ Viết shell script sshmonitor.sh đặt lịch chạy định kỳ 5 phút / l�
 viên root@localhost.
 Ví dụ nội dung mail:
 User root dang nhap thanh cong vao thoi gian 12:00:00 12/05/2017
-3.4. Cài đặt webserver (1d)
-Cài đặt webserver apache2. Tạo một file html trong thư mục gốc của webserver. đơn giản có
-nội dung sau: “<h1>Hello world, apache2</h1>”. Sử dụng lệnh curl kiểm tra truy cập vào file
-html vừa tạo.
+
 Tài liệu tham khảo:
 - Google
 - Linux LPIC

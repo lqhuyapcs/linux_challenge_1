@@ -11,8 +11,6 @@ for login in "$currentLogin"; do
 	time="$(echo "$login" | awk '{print $6}')"
 	timeStarted=`date -d"$month $day $time" "+%Y-%m-%d %H:%M"`
 	timeNow=`date "+%Y-%m-%d %H:%M"`
-	echo $timeNow
-	echo $timeStarted
 	between=`date -u -d @$(($(date -d "$timeNow" '+%s') - $(date -d "$timeStarted" '+%s'))) '+%M'`
 	if [[ $between -lt 5 ]]
 	then	
